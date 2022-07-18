@@ -4,8 +4,6 @@ A multifunctional GUI Library made for the GTA Multiplayer Modification RAGE:MP 
 
 Will be updated frequently, and might be open-src'd in near future.
 
-Currently not open-src to prevent detecting the menu.
-
 <img src="https://i.gyazo.com/4a98d6057d7fc3f23f06b01473f1a499.jpg">
 
 ## Table of Contents
