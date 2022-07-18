@@ -1,6 +1,6 @@
 # rGUI - RAGE:MP
 
-A GUI Library made for the GTA Multiplayer Modification RAGE:MP which is easy to use and understand.
+A multifunctional GUI Library made for the GTA Multiplayer Modification RAGE:MP which is easy to use and understand.
 
 Will be updated frequently, and might be open-src'd in near future.
 
