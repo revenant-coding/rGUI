@@ -1,3 +1,7 @@
+// scroll down for the example gui
+
+
+//////////////////////  rInternal start  //////////////////////
 var rVars = {
     WindowX: 0,
     WindowY: 0,
@@ -73,7 +77,9 @@ var rText = {
 
 }
 
+//////////////////////  rInternal end  //////////////////////
 
+//////////////////////  rGUI start  //////////////////////
 
 var pos = [];
 var currentMenuState = [];
@@ -477,14 +483,12 @@ var rGUI = {
    
 };
 
+//////////////////////  rGUI end  //////////////////////
 
 
+//////////////////////  Example start  //////////////////////
 
 
-
-
-
-// example menu starts here
 var cfg = {
     menushow: false,
     gaybox: {value: true},
@@ -563,3 +567,4 @@ rGUI.RAGE.AddEvent("render", () => {
 });
 
 
+//////////////////////  Example end  //////////////////////
