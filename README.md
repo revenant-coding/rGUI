@@ -4,7 +4,7 @@ A multifunctional GUI Library made for the GTA Multiplayer Modification RAGE:MP 
 
 Will be updated frequently.
 
-<img src="https://i.gyazo.com/4a98d6057d7fc3f23f06b01473f1a499.jpg">
+<img src="https://media.discordapp.net/attachments/927044321839030312/998904468953374730/unknown.png?width=1202&height=676">
 
 ## Table of Contents
 
