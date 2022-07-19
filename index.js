@@ -33,7 +33,6 @@ var rInternal = {
         mp.game.ui.drawText((x + (rText.GetTextWidth(message, font, [w, h]) / 2)) / rVars.WindowX, y / rVars.WindowY);
     },
     check_xy_in_xy: function (x, y, posX, posY, w, h) {
-
         return (posX + w > x && x > posX && posY + h > y && y > posY)
     },
     StringID: function (keyString){
@@ -491,8 +490,8 @@ var rGUI = {
 
 var cfg = {
     menushow: false,
-    gaybox: {value: true},
-    gayboxx: {value: true},
+    boxexample: {value: true},
+    boxexample2: {value: true},
     sliderint: {value: 100, min: 0, max: 100},
     sliderint2: {value: 100, min: 10, max: 360},
     menupos: {x: 250, y: 250},
@@ -534,17 +533,17 @@ rGUI.RAGE.AddEvent("render", () => {
 
     rGUI.BeginWindow("rGUI Example Window", cfg.menushow, cfg.menupos, cfg.menusize, 0);  // begin your window
     {
-        if(rGUI.Button("Aimbot", {x: 10, y: 10}, {x: 200, y: 30}, 0))
+        if(rGUI.Button("Inventory", {x: 10, y: 10}, {x: 200, y: 30}, 0))
         {
             cfg.tabindex = 0;
         }
 
-        if(rGUI.Button("Visuals", {x: 220, y: 10}, {x: 200, y: 30}, 0))
+        if(rGUI.Button("Portfolio", {x: 220, y: 10}, {x: 200, y: 30}, 0))
         {
             cfg.tabindex = 1;
         }
 
-        if(rGUI.Button("Misc", {x: 430, y: 10}, {x: 200, y: 30}, 0)) 
+        if(rGUI.Button("Settings", {x: 430, y: 10}, {x: 200, y: 30}, 0)) 
         {
             cfg.tabindex = 2;
         }
@@ -553,9 +552,9 @@ rGUI.RAGE.AddEvent("render", () => {
 
         if(cfg.tabindex == 0)
         {
-            rGUI.Checkbox("Example Checkbox", cfg.gaybox, {x: 10, y: 60}, 0); 
+            rGUI.Checkbox("Example Checkbox", cfg.boxexample, {x: 10, y: 60}, 0); 
 
-            rGUI.Checkbox("Example Checkbox 2", cfg.gayboxx, {x: 10, y: 95}, 0);
+            rGUI.Checkbox("Example Checkbox 2", cfg.boxexample2, {x: 10, y: 95}, 0);
 
             rGUI.Slider("Example Slider", cfg.sliderint, {x: 10, y: 130}, {x: 150, y: 25}, 0);
 
