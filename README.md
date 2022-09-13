@@ -18,6 +18,7 @@ Current functions:
 ```js
 
 // rGUI Functions
+let rGUI = new rGUIClass();                                   // rGUI's class has to be initalized now.
 rGUI.BeginWindow(title, bool, position, size, menuindex);     // menuindex locks checkboxes etc to the window with the same menuindex, check the example
 rGUI.GetKey(key, type);                                       // different types: JustPressed, JustReleased, IsPressed
 rGUI.BlurBackground(bool);                                    
@@ -44,26 +45,26 @@ rGUI.RAGE.AddEvent();             // similar to mp.events.add
 Current StyleVars:
 
 ```js
-rStyle.DrawTitlebar           // true or false
-rStyle.TitleFont              // get font number here: (https://wiki.rage.mp/index.php?title=Graphics::drawText)
-rStyle.TitleOutline           // true or false
-rStyle.CenterTitleText        // true or false
-rStyle.MainFont               // get font number here: (https://wiki.rage.mp/index.php?title=Graphics::drawText)
-rStyle.MainFontOutline        // true or false
-rStyle.EnableResize           // true or false
-rStyle.WindowBg               // {r: 42, g: 74, b: 123, a: 255}
-rStyle.TitleBg                // {r: 42, g: 74, b: 123, a: 255}
-rStyle.Seperator              // {r: 42, g: 74, b: 123, a: 255}
-rStyle.CheckboxNormal         // {r: 42, g: 74, b: 123, a: 255}
-rStyle.CheckboxHovered        // {r: 42, g: 74, b: 123, a: 255}
-rStyle.CheckboxTick           // {r: 42, g: 74, b: 123, a: 255}
-rStyle.ButtonNormal           // {r: 42, g: 74, b: 123, a: 255}
-rStyle.ButtonHovered          // {r: 42, g: 74, b: 123, a: 255}
-rStyle.ButtonPressed          // {r: 42, g: 74, b: 123, a: 255}
-rStyle.SliderGrab             // {r: 42, g: 74, b: 123, a: 255}
-rStyle.SliderNormal           // {r: 42, g: 74, b: 123, a: 255}
-rStyle.SliderHovered          // {r: 42, g: 74, b: 123, a: 255}
-rStyle.SliderPressed          // {r: 42, g: 74, b: 123, a: 255}
+rGUI.Styles.DrawTitlebar           // true or false
+rGUI.Styles.TitleFont              // get font number here: (https://wiki.rage.mp/index.php?title=Graphics::drawText)
+rGUI.Styles.TitleOutline           // true or false
+rGUI.Styles.CenterTitleText        // true or false
+rGUI.Styles.MainFont               // get font number here: (https://wiki.rage.mp/index.php?title=Graphics::drawText)
+rGUI.Styles.MainFontOutline        // true or false
+rGUI.Styles.EnableResize           // true or false
+rGUI.Styles.WindowBg               // {r: 42, g: 74, b: 123, a: 255}
+rGUI.Styles.TitleBg                // {r: 42, g: 74, b: 123, a: 255}
+rGUI.Styles.Seperator              // {r: 42, g: 74, b: 123, a: 255}
+rGUI.Styles.CheckboxNormal         // {r: 42, g: 74, b: 123, a: 255}
+rGUI.Styles.CheckboxHovered        // {r: 42, g: 74, b: 123, a: 255}
+rGUI.Styles.CheckboxTick           // {r: 42, g: 74, b: 123, a: 255}
+rGUI.Styles.ButtonNormal           // {r: 42, g: 74, b: 123, a: 255}
+rGUI.Styles.ButtonHovered          // {r: 42, g: 74, b: 123, a: 255}
+rGUI.Styles.ButtonPressed          // {r: 42, g: 74, b: 123, a: 255}
+rGUI.Styles.SliderGrab             // {r: 42, g: 74, b: 123, a: 255}
+rGUI.Styles.SliderNormal           // {r: 42, g: 74, b: 123, a: 255}
+rGUI.Styles.SliderHovered          // {r: 42, g: 74, b: 123, a: 255}
+rGUI.Styles.SliderPressed          // {r: 42, g: 74, b: 123, a: 255}
 ```
 
 
